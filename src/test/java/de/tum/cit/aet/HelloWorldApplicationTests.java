@@ -16,6 +16,6 @@ class HelloWorldApplicationTests {
 	@Test
 	void homeReturnsHelloDockerWorld() {
 		String response = restTemplate.getForObject("/", String.class);
-		assertThat(response).isEqualTo("Hello Applied Software Engineering");
+		assertThat(response).isEqualTo("Hello World");
 	}
 }
